@@ -1,0 +1,78 @@
+.reviewsSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url('../../assets/images/reviews.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+  
+.reviw__title{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, green, black);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+  
+  .comments {
+    padding: 20px;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* خلفية شفافة */
+  }
+  
+  .text p {
+    margin-bottom: 10px;
+  }
+  .reviw__image{
+    width: 60px;
+    height: 60px;
+  }
+  .star__image {
+    height: 15px;
+    width: 25px;
+    margin-right: 5px;
+  }
+  
+  .starLeaf {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user__image {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .commentor h4 {
+    margin: 0;
+    color: blueviolet;
+  }
+  
+  /* استجابة للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .reviewsSection {
+      padding: 20px 0;
+    }
+  
+    .comments {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .star__image {
+      height: 12px;
+      width: 20px;
+    }
+    .desMd {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  

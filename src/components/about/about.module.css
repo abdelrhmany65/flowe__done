@@ -1,0 +1,80 @@
+.about__us {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-image: url("../../assets/images/about Us.png"); /* تعيين الخلفية هنا */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin-top: 190px;
+}
+
+.paragraph {
+    background-color: rgb(238, 241, 237);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* إضافة تأثير الظل هنا */
+}
+
+.about__image {
+    width: 60px;
+    height: 60px;
+}
+
+.about__title {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, green, black);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1195px) {
+    .about__us {
+        text-align: center;
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .image {
+        display: none; /* إخفاء الصورة في الشاشات الصغيرة */
+    }
+
+    .paragraph {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .about__image {
+        height: 60px;
+        width: 60px;
+    }
+
+    .about__title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 787px) {
+    .about__image {
+        height: 50px;
+        width: 50px;
+    }
+
+    .about__title {
+        font-size: 30px;
+    }
+}

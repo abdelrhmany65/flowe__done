@@ -1,0 +1,99 @@
+/* common.module.css */
+.commoTitle {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, green, black);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.commoImage {
+  height: 46px;
+  width: 49px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnHero {
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--pink-01);
+  border: 2px solid var(--pink-01);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.35s, background-color 0.35s;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.btnHero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--pink-01);
+  transition: width 0.35s ease;
+  z-index: -1;
+}
+
+.btnHero:hover {
+  color: #fff;
+}
+
+.btnHero:hover:after {
+  width: 100%;
+}
+
+/* التعديلات للشاشات المتوسطة والصغيرة */
+@media (max-width: 992px) {
+  .commonSection {
+    padding: 2rem 1rem;
+  }
+
+  .mdRow {
+    flex-direction: column; /* جعل العناصر في عمود */
+    align-items: center; /* محاذاة العناصر في المنتصف */
+    text-align: center;
+  }
+
+  .desComm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* ترتيب النص في عمود */
+    margin-bottom: 1rem;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center; /* محاذاة الزر في المنتصف */
+  }
+
+  .btnHero {
+    width: 200px; /* عرض أكبر للزر في الشاشات الصغيرة */
+    font-size: 20px;
+  }
+}
+
+/* عند الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .btnHero {
+    width: 180px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,68 @@
+
+.productCard {
+  transition: transform 0.3s ease;
+  height: 460px; 
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+  
+}
+.productCard:hover {
+  transform: scale(1.05); 
+ 
+}
+.productImage{
+  height: 320px;
+  object-fit: cover; 
+  
+}
+.productDescription {
+  font-size: 0.85rem;
+  color: #6c757d; 
+  line-height: 1.5; 
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.productDescription::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  height: 1px;
+  background-color: #ddd; /* لون خط أسفل الوصف */
+  width: 100%;
+}
+
+/* أنماط السعر */
+.price {
+  font-weight: bold;
+  color: var(--green-01);
+  font-size: 1rem; /* تغيير حجم الخط ليناسب العرض */
+}
+
+.shop__cart,
+.shop__heart {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(15%) sepia(77%) saturate(1978%) hue-rotate(99deg) brightness(93%) contrast(101%) ;
+  transition: transform 0.3s ease;
+}
+.shop__cart{
+  transform: translateX(-30px);
+  opacity: 0;
+}
+.productCard:hover .shop__cart {
+  transform: translateX(0);
+  opacity: 1;
+
+}
+
+.productCard .shop__heart {
+  transform: translateX(20px); 
+  opacity: 0;
+}
+.productCard:hover .shop__heart {
+  transform: translateX(0px); 
+  opacity: 1;
+}

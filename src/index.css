@@ -1,0 +1,54 @@
+
+:root {
+  /* إعداد الخط الأساسي */
+  font-family: 'Roboto Serif', serif;
+  
+
+  /* إعداد الألوان */
+  --green-01: #003d2e;
+  --green-02: rgb(28, 90, 52);
+  --pink-01: rgba(191, 86, 198, 0.5);
+  --grey-01: #454545;
+  --min-01: #fff;
+  --min-02: #191d23;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  text-transform: capitalize;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.mar__top{
+  margin-top: 150px;
+}
+/* category.module.css */
+
+.errorMessage {
+  text-align: center;
+  color: #dc3545; 
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #dc3545;
+  background-color: #f8d7da; 
+  border-radius: 5px;
+}
+.toast-favorite {
+  background-color: rgba(191, 86, 198, 1) !important;
+}
+
+/* CSS لإضافة لون مخصص لرسائل الـ Toast الخاصة بإضافة السلة */
+.toast-cart {
+  background-color: rgb(0, 54, 112) !important;  /* اللون الافتراضي للسلة */
+}
+
+

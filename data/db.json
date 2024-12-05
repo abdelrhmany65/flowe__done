@@ -1,0 +1,344 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Indoor Plants",
+      "products": [
+        {
+          "id": 101,
+          "name": "Snake Plant",
+          "image": "https://images.unsplash.com/photo-1474112704314-8162b7749a90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 18.99,
+          "description": "A low-maintenance plant perfect for indoor spaces."
+        },
+        {
+          "id": 102,
+          "name": "Peace Lily",
+          "image": "https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 22.99,
+          "description": "Elegant white flowers that enhance any room."
+        },
+        {
+          "id": 103,
+          "name": "Snake Plant",
+          "image": "https://plus.unsplash.com/premium_photo-1683134066903-aef20412abf3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 18.99,
+          "description": "A low-maintenance plant perfect for indoor spaces."
+        },
+        {
+          "id": 104,
+          "name": "Peace Lily",
+          "image": "https://images.unsplash.com/photo-1458929526027-052f5d6a3c5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 22.99,
+          "description": "Elegant white flowers that enhance any room."
+        },
+        {
+          "id": 105,
+          "name": "Peace Lily",
+          "image": "https://plus.unsplash.com/premium_photo-1675919641242-9251ecfd816f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 28.99,
+          "description": "Elegant white flowers that enhance any room."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Flowering Plants",
+      "products": [
+        {
+          "id": 201,
+          "name": "Orchid",
+          "image": "https://plus.unsplash.com/premium_photo-1683121484963-a491b935780b?q=80&w=1891&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 25.99,
+          "description": "Exquisite orchids for sophisticated decor."
+        },
+        {
+          "id": 202,
+          "name": "Rose Plant",
+          "image": "https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 19.99,
+          "description": "A vibrant rose plant for brightening your home."
+        },
+        {
+          "id": 203,
+          "name": "Orchid",
+          "image": "https://images.unsplash.com/photo-1599031425762-838bd43d4f66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 25.99,
+          "description": "Exquisite orchids for sophisticated decor."
+        },
+        {
+          "id": 204,
+          "name": "Rose Plant",
+          "image": "https://plus.unsplash.com/premium_photo-1677471855230-2b2897262039?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 19.99,
+          "description": "A vibrant rose plant for brightening your home."
+        },        {
+          "id": 205,
+          "name": "Rose Plant",
+          "image": "https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 19.99,
+          "description": "A vibrant rose plant for brightening your home."
+        },
+        {
+          "id": 206,
+          "name": "Orchid",
+          "image": "https://images.unsplash.com/photo-1599031425762-838bd43d4f66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 25.99,
+          "description": "Exquisite orchids for sophisticated decor."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cacti and Succulents",
+      "products": [
+        {
+          "id": 301,
+          "name": "Mini Succulent Set",
+          "image": "https://www.pexels.com/photo/close-up-shot-of-blooming-yellow-tulips-7086859/",
+          "price": 12.99,
+          "description": "A set of mini succulents for small spaces."
+        },
+        {
+          "id": 302,
+          "name": "Golden Barrel Cactus",
+          "image": "https://www.pexels.com/photo/selective-focus-photography-of-white-cluster-flower-in-clear-glass-vase-1005066/",
+          "price": 15.99,
+          "description": "A unique cactus that adds charm to your home."
+        },
+        {
+          "id": 303,
+          "name": "Mini Succulent Set",
+          "image": "https://www.pexels.com/photo/close-up-of-pink-flowers-19632077/",
+          "price": 12.99,
+          "description": "A set of mini succulents for small spaces."
+        },
+        {
+          "id": 304,
+          "name": "Golden Barrel Cactus",
+          "image": "https://www.pexels.com/photo/limes-on-glass-bowl-beside-a-vase-with-pink-rose-7755033/",
+          "price": 15.99,
+          "description": "A unique cactus that adds charm to your home."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hanging Plants",
+      "products": [
+        {
+          "id": 401,
+          "name": "Hanging Ivy",
+          "image": "https://www.pexels.com/photo/delicate-flower-arrangement-4522905/",
+          "price": 21.99,
+          "description": "A stylish hanging plant for any room."
+        },
+        {
+          "id": 402,
+          "name": "String of Pearls",
+          "image": "https://www.pexels.com/photo/top-view-of-flowers-on-a-sheet-27142000/",
+          "price": 24.99,
+          "description": "A delicate hanging plant with unique appeal."
+        },
+        {
+          "id": 403,
+          "name": "Hanging Ivy",
+          "image": "https://www.pexels.com/photo/person-holding-bouquet-of-dry-flowers-6587395/",
+          "price": 21.99,
+          "description": "A stylish hanging plant for any room."
+        },
+        {
+          "id": 404,
+          "name": "String of Pearls",
+          "image": "https://www.pexels.com/photo/hands-holding-dried-roses-11183294/",
+          "price": 24.99,
+          "description": "A delicate hanging plant with unique appeal."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Indoor Tree Plants",
+      "products": [
+        {
+          "id": 501,
+          "name": "Fiddle Leaf Fig",
+          "image": "https://www.pexels.com/photo/photo-of-eucalyptus-branches-against-a-white-wall-18680694/",
+          "price": 49.99,
+          "description": "A statement plant with large, glossy leaves."
+        },
+        {
+          "id": 502,
+          "name": "Rubber Plant",
+          "image": "https://www.pexels.com/photo/foliage-plant-in-vase-on-white-table-17255551/",
+          "price": 39.99,
+          "description": "An elegant tree perfect for indoor spaces."
+        },
+        {
+          "id": 503,
+          "name": "Fiddle Leaf Fig",
+          "image": "https://www.pexels.com/photo/green-plant-in-clear-glass-vase-10748609/",
+          "price": 49.99,
+          "description": "A statement plant with large, glossy leaves."
+        },
+        {
+          "id": 504,
+          "name": "Rubber Plant",
+          "image": "https://www.pexels.com/photo/green-plant-in-brown-ceramic-vase-4503868/",
+          "price": 39.99,
+          "description": "An elegant tree perfect for indoor spaces."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gifts",
+      "products": [
+        {
+          "id": 601,
+          "name": "Plant Gift Box",
+          "image": "https://images.unsplash.com/photo-1474112704314-8162b7749a90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 29.99,
+          "description": "A curated gift box of beautiful plants."
+        },
+        {
+          "id": 602,
+          "name": "Customizable Plant Set",
+          "image": "https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 34.99,
+          "description": "Choose your favorite plants for a unique gift."
+        },
+        {
+          "id": 603,
+          "name": "Plant Gift Box",
+          "image": "https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 29.99,
+          "description": "A curated gift box of beautiful plants."
+        },
+        {
+          "id": 604,
+          "name": "Customizable Plant Set",
+          "image": "https://plus.unsplash.com/premium_photo-1675919641242-9251ecfd816f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 34.99,
+          "description": "Choose your favorite plants for a unique gift."
+        },
+        {
+          "id": 605,
+          "name": "Plant Gift Box",
+          "image": "https://plus.unsplash.com/premium_photo-1678116084738-043ab4135e4e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 29.99,
+          "description": "A curated gift box of beautiful plants."
+        },
+        {
+          "id": 606,
+          "name": "Customizable Plant Set",
+          "image": "https://plus.unsplash.com/premium_photo-1678115323020-27c62b5dcb61?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 34.99,
+          "description": "Choose your favorite plants for a unique gift."
+        },
+        {
+          "id": 607,
+          "name": "Plant Gift Box",
+          "image": "https://plus.unsplash.com/premium_photo-1678116082813-0157258f0461?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 29.99,
+          "description": "A curated gift box of beautiful plants."
+        },
+        {
+          "id": 608,
+          "name": "Customizable Plant Set",
+          "image": "https://plus.unsplash.com/premium_photo-1678116083603-18fb8babd0c5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 34.99,
+          "description": "Choose your favorite plants for a unique gift."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Subscription",
+      "products": [
+        {
+          "id": 701,
+          "name": "Monthly Plant Subscription",
+          "image": "https://www.pexels.com/photo/gardener-holding-the-roots-of-a-plant-9724434/",
+          "price": 25.00,
+          "description": "Receive a unique plant every month."
+        },
+        {
+          "id": 702,
+          "name": "Quarterly Plant Subscription",
+          "image": "https://www.pexels.com/photo/green-plant-on-brown-wooden-table-9730595/",
+          "price": 70.00,
+          "description": "Get premium plants every 3 months."
+        },
+        {
+          "id": 703,
+          "name": "Monthly Plant Subscription",
+          "image": "https://www.pexels.com/photo/woman-sitting-on-floor-and-preparing-seedling-for-planting-6913448/",
+          "price": 25.00,
+          "description": "Receive a unique plant every month."
+        },
+        {
+          "id": 704,
+          "name": "Quarterly Plant Subscription",
+          "image": "https://www.pexels.com/photo/person-transplanting-plant-in-pot-5830888/",
+          "price": 70.00,
+          "description": "Get premium plants every 3 months."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Planters & Accessories",
+      "products": [
+        {
+          "id": 801,
+          "name": "Modern Ceramic Planter",
+          "image": "https://www.pexels.com/photo/leaves-on-a-glass-vase-11155323/",
+          "price": 19.99,
+          "description": "A sleek planter for modern homes."
+        },
+        {
+          "id": 802,
+          "name": "Wooden Plant Stand",
+          "image": "https://www.pexels.com/photo/black-wooden-picture-frame-on-white-surface-5978736/",
+          "price": 29.99,
+          "description": "A stylish stand to elevate your plants."
+        },
+        {
+          "id": 803,
+          "name": "Modern Ceramic Planter",
+          "image": "https://www.pexels.com/photo/a-ceramic-vase-on-top-of-a-book-8251760/",
+          "price": 19.99,
+          "description": "A sleek planter for modern homes."
+        },
+        {
+          "id": 804,
+          "name": "Wooden Plant Stand",
+          "image": "https://www.pexels.com/photo/leaves-on-twigs-in-vase-11660909/",
+          "price": 29.99,
+          "description": "A stylish stand to elevate your plants."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Accessories and Pottery",
+      "products": [
+        {
+          "id": 901,
+          "name": "Decorative Pottery Set",
+          "image": "https://www.pexels.com/photo/dried-branches-in-the-black-ceramic-vase-10015479/",
+          "price": 34.99,
+          "description": "Handmade pottery for showcasing plants."
+        },
+        {
+          "id": 902,
+          "name": "Plant Care Kit",
+          "image": "https://www.pexels.com/photo/natural-green-leaves-arrangement-4522903/",
+          "price": 15.99,
+          "description": "Everything you need to care for your plants."
+        }
+      ]
+    }
+  ]
+}

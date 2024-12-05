@@ -1,0 +1,89 @@
+.footer {
+  background-image: url('../../assets/images/footer.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 40px 0;
+}
+
+.logo {
+  height: 70px;
+  width: 90px;
+}
+
+.email img {
+  width: 23px;
+  height: 23px;
+}
+
+.email p {
+  margin-left: 10px;
+}
+
+.social-media img {
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.stay {
+  margin-top: 30px;
+  font-size: 40px;
+  color: #003d2e;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+button[type="submit"] {
+  background-color: #b556c6;
+  border: none;
+}
+
+.start {
+  text-align: right; /* محاذاة النص لليمين */
+}
+
+.end {
+  text-align: left;  /* محاذاة النص لليسار */
+}
+
+.footer .email,
+.footer .social-media {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+.footer .email {
+  flex-direction: row;  
+}
+
+.footer .social-media {
+  flex-direction: row;  /* العناصر بشكل أفقي */
+}
+
+.footer.rtl .email,
+.footer.rtl .social-media {
+  flex-direction: row-reverse; /* عكس الاتجاه في اللغة العربية */
+}
+
+.footer.rtl .email p,
+.footer.rtl .social-media a {
+  text-align: right;
+}
+
+/* تخصيص في حال تغيير حجم الشاشة */
+@media (max-width: 720px) {
+  .footer {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+}

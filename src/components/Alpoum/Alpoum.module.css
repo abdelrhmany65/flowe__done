@@ -1,0 +1,67 @@
+.alpoumContainer {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.swiperContainer {
+  height: auto;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiperSlide {
+  width: 20rem; /* حجم العرض الافتراضي */
+  height: 28rem; /* حجم الطول الافتراضي */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* جعل الصور تتوسط الشرائح */
+.swiperSlide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+  display: block; /* إزالة الفراغات حول الصورة */
+}
+
+
+
+/* ضبط أدوات التحكم في الشريط */
+.sliderControler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderControler .swiper-button-next,
+.sliderControler .swiper-button-prev {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.sliderArrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiperPagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.swiperPagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiperPagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
