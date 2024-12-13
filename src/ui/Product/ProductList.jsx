@@ -20,7 +20,6 @@ import images08 from "../../assets/images/2619fafceaedd791a39fd2a196ec0641a.png"
 import images09 from "../../assets/images/2619fafceaedd791a39fd2a196ec0641a.png";
 
 
-
 const categories = [
 
   { name: 'Indoor Plants', image: images02 },
@@ -65,8 +64,8 @@ const ProductList = ({ setSelectedCategory }) => {
                     <div className="wrap">
                     <Link
                       className="btn-collision"
-                      to={`/shop/${category.name.replace(/\s+/g, '-').toLowerCase()}`} // تعديل الرابط ليشمل الفئة المحددة
-                      onClick={() => setSelectedCategory(category.name)} // تحديد الفئة المختارة
+                      to={`/shop/${category.name.replace(/\s+/g, '-').toLowerCase()}`} 
+                      onClick={() => setSelectedCategory(category.name)} 
                     >
                       Shop Now
                     </Link>
